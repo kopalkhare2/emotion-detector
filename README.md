@@ -21,23 +21,15 @@ Emotion recognition is increasingly relevant in areas like mental wellness apps,
 
 ---
 
-## 🖥️ Demo
+## 🖥️ Output
 
-```
-[Webcam Window]
-┌───────────────────────────────┐
-│ Emotion Scores    FPS: 12.3   │
-│ happy   ██████  78.2%         │
-│ neutral ██      14.1%         │
-│ sad            5.5%           │
-│                               │
-│   ┌─────────────┐             │
-│   │ HAPPY       │  ← label    │
-│   │  (face)     │  ← box      │
-│   └─────────────┘             │
-│ Press Q to quit | S to save   │
-└───────────────────────────────┘
-```
+![Emotion Detector Output](images/output.png)
+
+The app overlays:
+- A **colored bounding box** around each detected face
+- A **dominant emotion label** (e.g. HAPPY) above the box
+- A **probability bar chart** for all 7 emotions on the left
+- A live **FPS counter** in the top right
 
 ---
 
@@ -112,8 +104,13 @@ python emotion_detector.py --camera 1 --interval 0.2
 
 ```
 emotion-detector/
-├── emotion_detector.py   # Main application script
+├── emotion_detector.py   # Main application — webcam loop & rendering
+├── utils.py              # Helper functions — drawing, colors, formatting
+├── config.py             # All configurable settings in one place
 ├── requirements.txt      # Python dependencies
+├── .gitignore            # Files excluded from version control
+├── images/
+│   └── output.png        # Sample output screenshot
 └── README.md             # This file
 ```
 
@@ -167,5 +164,3 @@ VIT Bhopal University
 ## 📄 License
 
 MIT License — free to use and modify.
-
-Project by: Kopal Khare | VIT Bhopal University | Computer Vision 2026
