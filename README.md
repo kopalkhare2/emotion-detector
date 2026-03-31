@@ -162,11 +162,10 @@ emotion-detector/
 **Computer Vision** — Bring Your Own Project (BYOP) Submission  
 VIT Bhopal University
 
-Project by: Kopal Khare
-
 ---
 
 ## 📄 License
 
 MIT License — free to use and modify.
 
+Project by: Kopal Khare
