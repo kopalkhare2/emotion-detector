@@ -168,4 +168,4 @@ VIT Bhopal University
 
 MIT License — free to use and modify.
 
-Project by: Kopal Khare
+Project by: Kopal Khare | VIT Bhopal University | Computer Vision 2026
