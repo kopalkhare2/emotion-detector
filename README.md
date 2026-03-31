@@ -23,7 +23,7 @@ Emotion recognition is increasingly relevant in areas like mental wellness apps,
 
 ## 🖥️ Output
 
-![Emotion Detector Output](images/output.png)
+![Emotion Detector Output](output.png)
 
 The app overlays:
 - A **colored bounding box** around each detected face
